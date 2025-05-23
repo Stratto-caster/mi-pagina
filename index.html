@@ -1,35 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Mi Empresa</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Bienvenido a Mi Empresa</h1>
-    <p>Ofrecemos soluciones en productos y servicios de calidad.</p>
+    <div class="logo">Mi Empresa</div>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Quiénes somos</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#clientes">Clientes</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
   </header>
+
+  <section class="hero" id="inicio">
+    <h1>Bienvenidos a Mi Empresa</h1>
+    <p>Soluciones profesionales en productos y servicios.</p>
+    <img src="https://via.placeholder.com/800x300" alt="Imagen de portada">
+  </section>
+
   <main>
-    <section>
-      <h2>Sobre Nosotros</h2>
-      <p>Somos una empresa dedicada a...</p>
+    <section id="nosotros">
+      <h2>Quiénes somos</h2>
+      <p>Aquí describiremos tu empresa: historia, misión y valores.</p>
     </section>
-    <section>
+
+    <section id="servicios">
       <h2>Servicios</h2>
       <ul>
-        <li>Servicio 1</li>
-        <li>Servicio 2</li>
+        <li>Servicio 1 - descripción breve</li>
+        <li>Servicio 2 - descripción breve</li>
       </ul>
     </section>
-    <section>
+
+    <section id="clientes">
+      <h2>Clientes / Proyectos</h2>
+      <p>Testimonios, logos de clientes o casos de éxito.</p>
+    </section>
+
+    <section id="contacto">
       <h2>Contacto</h2>
       <p>Email: contacto@miempresa.com</p>
+      <p>Teléfono: +595 XXX XXX</p>
     </section>
   </main>
+
   <footer>
-    <p>&copy; 2025 Mi Empresa</p>
+    <p>&copy; 2025 Mi Empresa - Todos los derechos reservados.</p>
   </footer>
 </body>
 </html>
